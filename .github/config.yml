@@ -2,7 +2,7 @@ issueOpened: 'Custom message for when an issue is opened!'
 prOpened: 'Custom message for when a PR is submitted!'
 jobs:
   - targetBranch: master
-    jenkinsUrl: 'http://51.20.31.194:8080/job/ccif_build/'
+    jenkinsUrl: 'http://51.20.31.194:8080/job/ccif_build_pipeline/'
     triggers:
       pull_request:
         labels:
