@@ -1,2 +1,9 @@
 issueOpened: 'Custom message for when an issue is opened!'
 prOpened: 'Custom message for when a PR is submitted!'
+jobs:
+  - targetBranch: master
+    jenkinsUrl: 'https://jenkins-job.com/job/sw-main-build/'
+    triggers:
+      pull_request:
+        labels:
+          - check
