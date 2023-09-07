@@ -7,3 +7,4 @@ jobs:
       pull_request:
         labels:
           - check
+          - merge
